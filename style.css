@@ -1,0 +1,326 @@
+section{
+	padding-top: 30px;
+}
+body{
+  background-color:   white;
+}
+/*background color for navbar*/
+.bg7{
+  background-color:   white;
+}
+.hj{
+  color:  #113961;
+}
+.hk{
+  color:  #228efb;
+}
+#fg1{
+	border-radius: 	20px;
+}
+/*background image for header*/
+.bg1 {
+  background:  url(img/back3.jpg) no-repeat;
+  min-height: 610px;
+}
+
+.bg3 {
+  background: url(img/back2.jpg) no-repeat;
+}
+
+.bg4 {
+  background: url(img/back.jpg) no-repeat
+}
+/* for section which contains the form*/
+.bgds{
+	background-color:#162431;
+  padding-left: 200px;
+  padding-bottom: 15px;
+}
+.bds1{
+	margin-left: 50px;
+}
+/* for title and subtitle*/
+.bgn{
+  background-color:#00000070;
+  padding-top: 280px;
+  padding-bottom: 220px;
+  height: 100%;
+  width: 100%;
+}
+
+/*similar background image properties*/
+.bg3,.bg4,.bg1 {
+  background-size: cover;
+  min-height: 610px;
+}
+/* for images inside slider*/
+.hr1{
+	border-radius: 	15px;
+}
+.hr1:hover{
+  transition-property: transform;
+  position:relative;
+  transition-delay: 1s;
+  transition-duration: 3s;
+  transform:scaleX(1.09);
+  transform:scaleY(1.09); 
+  border: 	solid;	
+  border-color: black;
+  height:auto;
+  display:block;
+  z-index:999;
+}
+.hr1:hover {
+  color:  blue;
+}
+/*for sections containing paragraph*/
+.i1:hover, .i2:hover, .i3:hover, .i4:hover{
+	font-weight: 	500;
+  color:   blue;
+}
+/*for rounded images*/
+.sb1{
+  border:solid;  
+  border-color:white;
+}
+.sb1:hover{
+  border-color:#5cf2db;
+  color: #5cf2db;
+}
+/*for background image in the last section*/
+.bg2 {
+  background: url("img/round2.jpg") repeat;
+  background-size: cover; 
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.text-primary {
+  color: #0d1e75!important;
+}
+.bdr1{
+	border-top: solid;
+	border-color: grey;
+}
+/*for navbars*/
+.nav1{
+	padding-left: 100px;
+}
+.nav2{
+	font-size: 15px;
+}
+.nav3{
+	padding-left: 80px;
+	font-weight: 200;
+}
+.fa {
+  color: white;
+}
+/*.nav4{
+  margin-left: 190px;
+  }*/
+.nav5{
+  padding-right: 20px;
+}/*for navbars*/
+.ic1{
+  padding-top: 13px;
+  padding-left: 20px;
+}
+  /*for styles of buttons*/
+.btnsstyle:hover{
+  background-color: #2c9988;
+  font-weight: bolder;
+}
+ /*form style*/
+/*.frmstyle{
+   height:  100px;//this can be used for increasing the height of border
+   /*background image for  sections which contain rounded images*/
+.bg-dark1{
+  background: url("img/round1.jpg") repeat;
+  background-size: cover;
+  background-color: #0a233e!important;
+}
+  /*for sliders*/
+.MultiCarousel {
+  float: left; 
+  overflow: hidden;
+  padding: 15px; 
+  width: 100%; 
+  position:relative;
+ }
+.MultiCarousel .MultiCarousel-inner { 
+  transition: 1s ease all; 
+  float: left; 
+}
+.MultiCarousel .MultiCarousel-inner .item { 
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div { 
+  text-align: center; 
+  padding:10px; 
+  margin:10px; 
+  background:#f1f1f1; 
+  color:#666;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+  position:absolute; 
+  border-radius:50%;
+  top:calc(50% - 20px);
+}
+.MultiCarousel .leftLst { 
+  left:0; 
+}
+.MultiCarousel .rightLst {
+  right:0; 
+}
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+  pointer-events: none;
+  background:#ccc;
+}
+/*properties which round images will follow*/
+.positions{
+  margin-top: 40px;
+}
+.rounded-images{
+  padding-bottom: 30px;
+  padding-top: 20px;
+  color: white;
+}
+.rounded-caption{
+  padding-top: 10px;
+  font-weight: 600;
+  padding-right: 40px;
+}
+/* for changing the para color of rounded images*/
+.hvr1:hover{
+  color:  #2c9988;
+}
+.bg-dark2 {
+  background: url("img/round4.jpg") repeat;
+  background-size: cover;
+}/*
+.topbutton{
+    margin-left:590px;
+    }*/
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: blue;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: blue;
+}
+    /*for making the form section responsive*/
+@media screen and (max-width: 905px) {
+ .bgds {
+  display:none;
+ }
+}
+.bhj{
+  margin-left: 50px;
+}
+    /*for title of website*/
+.title {
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.circle-text {
+  display: table-cell;
+  height: 150px; /*change this and the width
+  for the size of your initial circle*/
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  /*make it pretty*/
+  border: solid;
+  border-color:blue;
+  border-spacing: 30px;
+  color: blue;
+  font: 14px "josefin sans", arial; /*change this
+  for font-size and font-family*/
+  border-width: thin;
+}
+.circle-text:hover {
+  display: table-cell;
+  height: 150px; /*change this and the width
+  for the size of your initial circle*/
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  /*make it pretty*/
+  margin: : 10px;
+  border: dotted;
+  border-color: white;
+  background-color: #34347b;
+  color: white;
+  font-weight: bolder; /*change this
+  for font-size and font-family*/
+  border-width: medium;
+}
+/*to fix multiple navbars at their positions*/
+.fixed-top-2 {
+  margin-top: 48px;
+}
+/*for last section design*/
+.last-section{
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 90px solid;
+  border-color: #34347b;
+  border-width: thin;
+}
+/*for background image*/
+.bg-dark3{
+  background-color: #85640473;
+  margin-top: 30px;
+  border-bottom: solid;
+}
+/*for content above the footer*/
+/*this class shows how to use background image property*/
+/*also shows the background width property*/
+.aside-border{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #000004;
+  color: red;
+  margin: 10px;
+  padding: 100px;
+  margin-bottom: 40px;
+  /*border-top: 20px solid yellow;
+  border-bottom: 20px solid red;
+  border-left: 10px dotted;
+  border-right: 10px dashed;*/
+  border: solid 15px;
+  border-image: url("img/back3.jpg") 30 round;
+}
+.bgborder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: url("img/back3.jpg") no-repeat;
+  min-height: 500px;
+}
+.opac{
+   border: 200px solid #00000070;
+}
